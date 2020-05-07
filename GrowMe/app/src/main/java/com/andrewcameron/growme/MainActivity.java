@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ViewPager mViewPager;
 
+    private TabLayout tabLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,15 +29,22 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         setupViewPager(mViewPager);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        setupTabIcons();
+    }
+
+    private void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(R.drawable.habits_logo);
+        tabLayout.getTabAt(1).setIcon(R.drawable.garden_logo);
+        tabLayout.getTabAt(2).setIcon(R.drawable.settings_cog);
     }
 
     private void setupViewPager(ViewPager viewPager) {
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Tab1Fragment(), "TAB1");
-        adapter.addFragment(new Tab2Fragment(), "TAB2");
-        adapter.addFragment(new Tab3Fragment(), "TAB3");
+        adapter.addFragment(new Tab1Fragment(), "HABITS");
+        adapter.addFragment(new Tab2Fragment(), "GARDEN");
+        adapter.addFragment(new Tab3Fragment(), "SETTINGS");
         viewPager.setAdapter(adapter);
     }
 }
