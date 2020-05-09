@@ -50,16 +50,6 @@ public class Tab1Fragment extends Fragment {
         textViewSuffix.setText((suffixes[dateOfMonth]));
         textViewMonth.setText(month);
 
-
-//        btnTest = (Button) view.findViewById(R.id.btnTab1);
-
-//        btnTest.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 1", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-
         return view;
     }
 }

@@ -32,7 +32,7 @@
             android:layout_marginTop="10dp"
             android:gravity="top"
             android:textSize="20dp"
-            android:text="th"/>
+            android:text="th" />
         <TextView
             android:id="@+id/txtMonth"
             android:layout_width="wrap_content"
