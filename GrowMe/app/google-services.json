@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "943391234924-16a4d668nasv79tbtrgsrd9kor1rdjid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andrewcameron.growme",
+            "certificate_hash": "0e47d9673cc562cda18f40252184d81e784da922"
+          }
+        },
+        {
           "client_id": "943391234924-thd6h80l8rfmrdkcajl9ohdleo7mp2ou.apps.googleusercontent.com",
           "client_type": 3
         }
