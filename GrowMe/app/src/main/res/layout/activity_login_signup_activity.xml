@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_signup_activity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!--    Facebook login button-->
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/sign_in_button_facebook"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button_google"
+        android:layout_width="200dp"
+        android:layout_height="40dp"/>
+
+    <!--    Facebook Login-->
+<!--    <meta-data android:name="com.facebook.sdk.ApplicationId"-->
+<!--        android:value="@string/facebook_app_id"/>-->
+
+<!--    <activity android:name="com.facebook.FacebookActivity"-->
+<!--        android:configChanges=-->
+<!--            "keyboard|keyboardHidden|screenLayout|screenSize|orientation"-->
+<!--        android:label="@string/app_name" />-->
+<!--    <activity-->
+<!--        android:name="com.facebook.CustomTabActivity"-->
+<!--        android:exported="true">-->
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.VIEW" />-->
+<!--            <category android:name="android.intent.category.DEFAULT" />-->
+<!--            <category android:name="android.intent.category.BROWSABLE" />-->
+<!--            <data android:scheme="@string/fb_login_protocol_scheme" />-->
+<!--        </intent-filter>-->
+<!--    </activity>-->
+
+</LinearLayout>

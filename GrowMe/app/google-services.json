@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943391234924",
+    "firebase_url": "https://growme-aa85a.firebaseio.com",
+    "project_id": "growme-aa85a",
+    "storage_bucket": "growme-aa85a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943391234924:android:1c1f5cae31c3679312f149",
+        "android_client_info": {
+          "package_name": "com.andrewcameron.growme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943391234924-thd6h80l8rfmrdkcajl9ohdleo7mp2ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6eWIGFyCsL2-zNuBRv7wZ1tIdXQKmjG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943391234924-thd6h80l8rfmrdkcajl9ohdleo7mp2ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
