@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_application_id"/>
         <activity
             android:name=".login_signup_activity"
             android:label="@string/title_activity_login_signup_activity"
@@ -26,4 +26,4 @@
 <!--        </activity>-->
     </application>
 
-</manifest>
+</manifest >
