@@ -11,7 +11,10 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <!--Facebook strings-->
-    <string name="facebook_app_id">3018125751586038</string>
-    <string name="fb_login_protocol_scheme">fb3018125751586038</string>
+    <string name="facebook_application_id" translatable="false">3018125751586038</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb3018125751586038</string>
 
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">ghAcoqEKjXZpmoUE7TJOSs6Fd</string>
+    <string name="twitter_consumer_secret" translatable="false">gr1ur8PaaJbHwpFJmMGpGMvBA1uFPVYK9RG0kGyZqXRtzwfem0</string>
 </resources>
